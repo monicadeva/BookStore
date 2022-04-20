@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="browser" value="edge" />
+    <test name="Book Store Demo">
+
+        <classes>
+            <class name="com.bookstore.testCases.Registration" />
+            <class name="com.bookstore.testCases.TC001Login"/>
+            <class name="com.bookstore.testCases.TC002AddBook"/>
+            <class name="com.bookstore.testCases.TC003DeleteBook"/>
+            <class name="com.bookstore.testCases.TC002LoginTest_DDT"/>
+            
+         </classes>
+     </test>
+ </suite>
